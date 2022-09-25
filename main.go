@@ -28,6 +28,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	key, err := kstore.Decrypt()
 	if err != nil {
 		log.Fatal(err)
